@@ -4,3 +4,10 @@
   
 
 animals=['tiger', 'elephant', 'monkey', 'zebra', 'panther']
+
+i=0 
+
+while i <= len(animals) - 1:
+    word = animals[i]
+    print(word.upper())
+    i+=1
