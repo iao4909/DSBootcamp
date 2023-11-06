@@ -19,7 +19,7 @@ plt.rcParams['figure.figsize'] = (12,8)
 plt.rcParams['font.size'] = 14
 
 # import and read housing csv
-housing_csv = open('Week 4/data/boston_housing_data.csv')
+housing_csv = open('Week4/data/boston_housing_data.csv')
 housing = pd.read_csv(housing_csv)
 
 # read in housing data
@@ -33,29 +33,5 @@ plt.plot(housing['INDUS'], label='INDUS', color='blue', linestyle='--')
 
 # display line plot
 plt.show()
-
-
-# TODO
-# 2. Create a bar chart using col1 and col2 of dummy data.
-
-# 	a. Give the plot a large title of your choosing.
-# 	b. Move the legend to the lower-left corner.
-# 	c. Do the same thing but with horizontal bars.
-# 	d. Move the legend to the upper-right corner.
-
-
-
-# TODO
-# 3. Create a histogram with pandas for using MEDV in the housing data.
-
-# 	a. Set the bins to 20
-
-
-
-# TODO
-# 4. Create a scatter plot of two heatmap entries that appear to have a very positive correlation.
-
-# TODO
-# 5. Now, create a scatter plot of two heatmap entries that appear to have negative correlation.
 
 
